@@ -47,22 +47,23 @@
 
 
 
-
-<canvas id="moja_kanwa" width="300" height="200" style="border:1px solid blue;"> BRAK OBSŁUGI CANVAS </canvas>
+<canvas   id="moja_kanwa"  width="300"  height="200"  style="border:1px solid blue;"> BRAK OBSŁUGI CANVAS  </canvas> 	
+<!-- kod Java Script -->	
 <script>
-	var x = document.getElementByld("moja_kanwa");
-	var xtx = x.getContext('2d');
-	xtx.moveTo(0,0);
-	xtx.lineTo(300,200);
-	xtx.strokeStyle ="red";
-	xtx.stroke();
+	var x = document.getElementById("moja_kanwa");
+	var xtx = x.getContext('2d') ;
+	xtx.moveTo(0, 0);			<!--funkcja moveTo - początek linii (współrzędne) -->	
+	xtx.lineTo(300, 200);			<!--funkcja lineTo - koniec linii (współrzędne) -->	
+	xtx.strokeStyle = "red";			<!--atrybut strokeStyle - kolor pędzla rysującego -->	
+ 	xtx.stroke(); 
 
-	var k = document.getElementByld("moja_kanwa");
-	var kxt = k.getContext('2d');
-	kxt.fillStyle="green";
-	kxt.fillRect(50,50,70,70);
-	kxt.strokeStyle="purple";
-	kxt.strokeRect(40,40,90,90);
+
+	var k = document.getElementById("moja_kanwa");
+	var kxt = k.getContext('2d') ;
+	kxt.fillStyle = "green";			<!--atrybut fillStyle - kolor pędzla rysującego -->	
+ 	kxt.fillRect(50, 50, 70, 70);		<!--funkcja fillRect - wypełnia kolorem -->	
+	kxt.strokeStyle = "purple";		<!--atrybut strokeRect - kolor pędzla rysującego -->	
+ 	kxt.strokeRect(40, 40, 90, 90); 		<!--funkcja strokeRect - rysuje krawędzie -->	
 </script>
 
 
