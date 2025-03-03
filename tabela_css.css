@@ -1,0 +1,161 @@
+table.zero,td.zero {
+    border-collapse: collapse;
+    width: 30%;
+    border: 1px solid blue;
+    table-layout: fixed;
+}
+table.one, td.one {
+border-collapse: collapse;
+table-layout: fixed;
+width: 50%;
+border-width: 3px;
+border-color: red;
+padding: 10px;
+text-transform:uppercase ;
+background-color: lightblue;
+border-style: solid;
+
+}
+
+table.one1, td.one1 {
+border-collapse: collapse;
+table-layout: fixed;
+width: 80%;
+border-width: 2px;
+border-color: green;
+padding: 10px;  
+background-color: yellow;
+border-style: solid;
+
+}
+
+table.dwa, td.dwa {
+border-collapse: collapse;
+table-layout: fixed;
+width: 80%;
+border-top: 1px solid aqua;
+text-align: left;
+padding: 8px;
+
+}
+
+tr.dwa2:hover  {
+background-color: aqua;
+}
+
+table.trzy, td.trzy {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 80%;
+    text-align: left;
+    padding: 8px;
+    
+    }
+
+tr.trzy:nth-child(even):hover  {
+background-color: purple;
+    }
+
+tr.trzy:nth-child(odd):hover  {
+background-color: gray;
+    }
+
+
+
+table.cztery, td.cztery {
+border-collapse: collapse;
+table-layout: fixed;
+width: 80%;
+text-align: left;
+padding: 8px;
+border-bottom: 2px dotted red;
+        
+    }
+
+
+    
+th.cztery {
+    border-bottom: 2px dotted red ;
+}
+
+td.cztery:nth-child(1):hover  {
+    background-color: purple;
+        }
+        td.cztery:nth-child(3):hover  {
+            background-color: purple;
+                }
+        
+
+td.cztery:nth-child(2):hover  {
+    background-color: gray;
+        }
+
+td.cztery:nth-child():hover  {
+    background-color: yellow;
+}
+th.cztery:nth-child(2):hover  {
+    background-color: aqua;
+}
+th.cztery:nth-child(3):hover  {
+    background-color: yellow;
+}
+th.cztery:nth-child(1):hover  {
+    background-color:yellow;
+}
+
+
+
+
+table.piec, td.piec {
+    width: 50%;
+    table-layout: fixed;
+
+
+
+}
+
+
+
+table.cztery1 {
+	width: 50%;
+	border: 1px solid black;
+}
+th.cztery1 {
+	color: red;
+	background-color: yellow;
+}
+td.cztery1 {
+	color: black;
+	background-color: white;
+}
+
+
+
+
+table.piec {
+	width: 50%;
+}
+th.piec {
+	color: red;
+	background-color: yellow;
+	border: 1px solid black;
+}
+td.piec {
+	color: black;
+	border: 1px solid black;
+}
+
+
+
+
+th.noc {
+	color: saddlebrown;
+	border: 3px inset;
+	background-color: lightpink;
+}
+td.noc, table.noc {
+	color: black;
+	border: 3px blueviolet outset;
+	padding: 10px;
+	width: 50%;
+}
