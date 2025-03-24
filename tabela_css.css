@@ -1,121 +1,66 @@
-table.zero,td.zero {
-    border-collapse: collapse;
-    width: 30%;
-    border: 1px solid blue;
-    table-layout: fixed;
-}
-table.one, td.one {
-border-collapse: collapse;
-table-layout: fixed;
-width: 50%;
-border-width: 3px;
-border-color: red;
-padding: 10px;
-text-transform:uppercase ;
-background-color: lightblue;
-border-style: solid;
-
+table, p, h4 {
+	margin-left: 15px;
 }
 
-table.one1, td.one1 {
-border-collapse: collapse;
-table-layout: fixed;
-width: 80%;
-border-width: 2px;
-border-color: green;
-padding: 10px;  
-background-color: yellow;
-border-style: solid;
-
+table.kl1, td.kl1 {
+	text-align: left;
+	border: 1px solid blue;
+	border-collapse: collapse;
+	padding: 5px 20px 5px 0px;
+}
+table.one {
+	width: 80%;
+	border-collapse: collapse;
+}
+th.one {
+	border: 3px solid red;
+	background-color: lightblue;
+	padding: 10px;
+}
+td.zwykle {
+	border: 3px solid #00ff00;
+	background-color: #ffff66;
+	padding: 10px;
+}
+table.dwa, table.trzy, table.cztery{
+	border-collapse: collapse;
+	width: 80%;
+}
+th.dwa, td.dwa {
+	border-top: 1px aqua solid;
+	padding: 10px;
 }
 
-table.dwa, td.dwa {
-border-collapse: collapse;
-table-layout: fixed;
-width: 80%;
-border-top: 1px solid aqua;
-text-align: left;
-padding: 8px;
-
+tr.dwa:hover {
+	border-top: 1px aqua solid;
+	padding: 10px;
+	background-color:aqua;
 }
-
-tr.dwa2:hover  {
-background-color: aqua;
+td.trzy, th.trzy{
+	padding: 15px;
 }
-
-table.trzy, td.trzy {
-    border-collapse: collapse;
-    table-layout: fixed;
-    width: 80%;
-    text-align: left;
-    padding: 8px;
-    
-    }
-
-tr.trzy:nth-child(even):hover  {
-background-color: purple;
-    }
-
-tr.trzy:nth-child(odd):hover  {
-background-color: gray;
-    }
-
-
-
-table.cztery, td.cztery {
-border-collapse: collapse;
-table-layout: fixed;
-width: 80%;
-text-align: left;
-padding: 8px;
-border-bottom: 2px dotted red;
-        
-    }
-
-
-    
-th.cztery {
-    border-bottom: 2px dotted red ;
+tr.trzy:nth-child(even):hover {
+	background-color: purple;
 }
-
-td.cztery:nth-child(1):hover  {
-    background-color: purple;
-        }
-        td.cztery:nth-child(3):hover  {
-            background-color: purple;
-                }
-        
-
-td.cztery:nth-child(2):hover  {
-    background-color: gray;
-        }
-
-td.cztery:nth-child():hover  {
-    background-color: yellow;
+tr.trzy:nth-child(odd):hover {
+	background-color: gray;
 }
-th.cztery:nth-child(2):hover  {
-    background-color: aqua;
+td.cztery:nth-child(even):hover {
+	background-color: gray;
 }
-th.cztery:nth-child(3):hover  {
-    background-color: yellow;
+th.cztery:nth-child(even):hover {
+	background-color: aqua;
 }
-th.cztery:nth-child(1):hover  {
-    background-color:yellow;
+td.cztery:nth-child(odd):hover {
+	background-color: purple;
 }
-
-
-
-
-table.piec, td.piec {
-    width: 50%;
-    table-layout: fixed;
-
-
-
+th.cztery:nth-child(odd):hover {
+	background-color: yellow;
 }
-
-
-
+td.cztery, th.cztery {
+	border-bottom: red dotted 2px;
+	padding: 15px;
+}
 table.cztery1 {
 	width: 50%;
 	border: 1px solid black;
@@ -128,10 +73,6 @@ td.cztery1 {
 	color: black;
 	background-color: white;
 }
-
-
-
-
 table.piec {
 	width: 50%;
 }
@@ -144,18 +85,95 @@ td.piec {
 	color: black;
 	border: 1px solid black;
 }
-
-
-
-
 th.noc {
-	color: saddlebrown;
+	color: blue;
 	border: 3px inset;
 	background-color: lightpink;
 }
 td.noc, table.noc {
 	color: black;
-	border: 3px blueviolet outset;
+	border: 3px maroon outset;
 	padding: 10px;
 	width: 50%;
+}
+table.pink {
+	width: 50%;
+	border-collapse: collapse;
+	padding: 10px;
+}
+th.pink {
+	background-color: pink;
+	color: purple;
+	border: 3px inset;
+	padding: 5px;
+}
+td.pink {
+	border: 3px solid black;
+	padding: 5px;
+}
+table.caption {
+	width: 50%;
+	border: 1px solid aqua;
+	background-color: black;
+	color: white;
+	caption-side: left;
+}
+th.caption {
+	color: blue;
+	background-color: aqua;
+}
+td.caption {
+	border: 1px solid aqua; /*pozdrawiam moją praze na sk*/
+}
+caption.caption {
+	border: aqua;
+	background-color: black;
+	border: 1px solid aqua;
+	width: 80pt;
+	text-align: center;
+}
+.k121 {
+	padding: 3px;
+}
+table.k121 {
+	border-spacing: 5px;
+	border: 1px red solid;
+	background-color: navy;
+	color: white;
+	width: 70%;
+}
+th.k121 {
+	background-color: red;
+}
+td.k121 {
+	border: 1px red solid;
+}
+
+table.k122 {
+	border: 3px red solid;
+	width: 100%;
+	margin-left: 0px;
+	border-spacing: 5px;
+}
+th.k122 {
+	background-color: #00ff66;
+	border: 1px aqua solid;
+}
+td.k122 {
+	background-color: #0066ff;
+	border: 1px aqua solid;
+}
+table.dwa1 {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	width: 100%;
+	table-layout: auto;
+	display: block;
+}
+th.dwa1, td.dwa1 {
+	padding: 8px;
+	border-top: 1px solid aqua
+}
+th.dwa1:hover, td.dwa1:hover {
+	background-color:aqua;
 }

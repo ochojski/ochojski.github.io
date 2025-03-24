@@ -1,0 +1,30 @@
+h4:first-line { 
+    text-decoration: underline;
+    background-color: yellow;
+    font-size:20px;
+    font-family: 'Courier New', Courier, monospace;
+    }
+
+div#nazwa p:first-letter {
+    border:1px solid aqua;
+    color: purple;
+    font-size:1000%;
+    background-color: aqua;
+    float:left;
+}
+
+*::selection {background-color:purple ; color:aqua;}
+
+#element{border:1px solid red; padding:20px;}
+
+#element:before{content: "elo"; 
+    color:white;
+    background-color:#09c;
+    padding:10px;
+    border-radius: 25px;
+    margin:0px;}
+
+    #element:after{content: "DAMY RADĘ TO ZROBIĆ";
+        color:white;
+        background-color:#0c0;
+        padding:10px;}

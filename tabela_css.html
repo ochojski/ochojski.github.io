@@ -29,8 +29,14 @@
 		<a href="canvas.html">CANVAS</a><br/>
 			
 		<h3>CSS</h3>
-			<a href="wlasciwosci_css.html">WŁAŚCIWOŚCI_CSS</a><br />
-			<a href="identyfikator.html">IDENTYFIKATOR</a><br/>
+		<a href="wlasciwosci_css.html">WŁAŚCIWOŚCI_CSS</a><br />
+		<a href="identyfikator.html">IDENTYFIKATOR</a><br/>
+		<a href="pseudo_elementy.html">PSEUDO ELEMENTY</a><br/>
+		<a href="tabela_css.html">TABELA CSS</a><br/>
+		
+		<h3>SELEKTORY</h3>
+		
+		<a href="selek_atryb.html">SELEKTORY ATRYBUTÓW</a><br/>
 		
 		<h3>DOKUMENT</h3>
 				<a href="doc/grupa2c.docx" target="new">Lista grupy II w 2c</a><br/>
@@ -46,149 +52,161 @@
  </div>
  <div style="float:right; width:70%;">
 
-	<table class="zero">
+	<table class="kl1">
+		<tr class="kl1">
+			<td class="kl1">komórka 1-1</td>
+			<td class="kl1">komórka 1-2</td>
+			<td class="kl1">komórka 1-3</td>
+		</tr class="kl1">
 		<tr>
-			<td class="zero">komórka 1-1</td>
-			<td class="zero">komórka 1-2</td>
-			<td class="zero">komórka 1-3</td>
-		</tr>
+			<td class="kl1">komórka 2-1</td>
+			<td class="kl1">komórka 2-2</td>
+			<td class="kl1">komórka 2-3</td>
+		</tr class="kl1">
 		<tr>
-			<td class="zero">komórka 2-1</td>
-			<td class="zero">komórka 2-2</td>
-			<td class="zero">komórka 2-3</td>
-		</tr>
-		<tr>
-			<td class="zero">komórka 3-1</td>
-			<td class="zero">komórka 3-2</td>
-			<td class="zero">komórka 3-3</td>
+			<td class="kl1">komórka 3-1</td>
+			<td class="kl1">komórka 3-2</td>
+			<td class="kl1">komórka 3-3</td>
 		</tr>
 	</table>
-<br />
-	<table class="one1">
-		<tr>
-			<td class="one"> NR </td>
-			<td class="one"> NAZWISKO I IMIE </td>
-			<td class="one"> OBECNOSC </td>
-
+	<hr />
+	<p>2. Utwórz tabelę z klasa "one" , składajaca się z 5 wierszy i 3 kolumn. Szerokosć 80 % <br />
+	Tabela ma złaczone krawędzie komórek.<br />
+	Osobno zadeklaruj komórki nagłówkowe, które maja obramowanie 3px czerwone, odstęp 10px, duże litery i tło niebieskie.<br />
+	Osobno zadeklaruj komórki "zwykłe", które maja obramowanie 2px zielone, odstęp 10px i tło żółte.<br />
+	Nie zapomnij zadeklarować pustych komórek za pomoca poznanych własciwosci CSS.</p><br /><br />
+	
+	<table class="one">
+		<tr class="one">
+			<th class="one">NR</th>
+			<th class="one">NAZWISKO I IMIE</th>
+			<th class="one">OBECNOSC</th>
 		</tr>
-		<tr>
-			<td class="one1"> 1  </td>
-			<td class="one1"> Kacpier Stonk </td>
-			<td class="one1"> TAK </td>
-
+		<tr class="zwykle">
+			<td class="zwykle">1</td>
+			<td class="zwykle">Anna Nowak</td>
+			<td class="zwykle">Tak</td>
 		</tr>
-		<tr>	
-			<td class="one1"> 2   </td>
-			<td class="one1">  Paweł Stańczyk  </td>
-			<td class="one1">  TAK  </td>
+		<tr class="zwykle">
+			<td class="zwykle">2</td>
+			<td class="zwykle">Jan Kowalski</td>
+			<td class="zwykle">Tak</td>
 		</tr>
-		<tr>		
-			<td class="one1"> 3 </td>
-			<td class="one1">  Hubert Ombur </td>
-			<td class="one1"> NIE  </td>
+		<tr class="zwykle">
+			<td class="zwykle">3</td>
+			<td class="zwykle">Kszysztof Kwiatowski</td>
+			<td class="zwykle">Tak</td>
 		</tr>
-		<tr>
-			<td class="one1"> 4  </td>
-			<td class="one1"> Karyna  </td>
-			<td class="one1">   </td>
+		<tr class="zwykle">
+			<td class="zwykle">4</td>
+			<td class="zwykle">Filip</td>
+			<td class="zwykle">&nbsp;</td>
+		</tr>		
+		<tr class="zwykle">
+			<td class="zwykle">5</td>
+			<td class="zwykle">Maja</td>
 		</tr>
-		<tr>
-			<td class="one1"> 5  </td>
-			<td class="one1">  Oskar  </td>
-		</tr>
-
 	</table>
-
-	<br />
-
+	<hr />
+	<p>3. Utwórz tabelę z klasa "dwa" . Tabela ma złaczone krawędzie w tabeli. Szerokosć 80 %.
+	W komórkach th i td jest ustawiony odstęp na 8 px oraz border-top w kolorze aqua z 1 px.
+	Dodatkowo ZASTOSOWAŁAM PSEUDOKLASĘ :hover , która ma tło w kolorze aqua. Po najechaniu mysza zobaczysz efekt.</p>
 	<table class="dwa">
-		<tr class="dwa2">
-		  <th class="dwa">Pierwsze Imię</th>
-		  <th class="dwa">Nazwisko</th>
-		  <th class="dwa">Zarobek na godz.</th>
+		<tr class="dwa">
+			<th class="dwa">Pierwsze Imię</th>
+			<th class="dwa">Nazwisko</th>
+			<th class="dwa">Zarobek na godz.</th>
 		</tr>
-		<tr class="dwa2">
-		  <td class="dwa">Piotrus</td>
-		  <td class="dwa">Pan</td>
-		  <td class="dwa">$230</td>
+		<tr class="dwa">
+			<td class="dwa">Peter</td>
+			<td class="dwa">Griffin</td>
+			<td class="dwa">$100</td>
 		</tr>
-		<tr class="dwa2">
-		  <td class="dwa">Ombur</td>
-		  <td class="dwa">Pytka</td>
-		  <td class="dwa">$150</td>
+		<tr class="dwa">
+			<td class="dwa">Lois</td>
+			<td class="dwa">Griffin</td>
+			<td class="dwa">$150</td>
+		</tr class="dwa">
+		<tr class="dwa">
+			<td class="dwa">Joe</td>
+			<td class="dwa">Swanson</td>
+			<td class="dwa">$300</td>
 		</tr>
-		<tr class="dwa2">
-		  <td class="dwa">Filip</td>
-		  <td class="dwa">Wilga</td>
-		  <td class="dwa">$123123</td>
+		<tr class="dwa">
+			<td class="dwa">Cleveland</td>
+			<td class="dwa">Brown</td>
+			<td class="dwa">$250</td>
 		</tr>
-		<tr class="dwa2">
-		  <td class="dwa">Mikołaj</td>
-		  <td class="dwa">Stańczyk</td>
-		  <td class="dwa">$30300</td>
-		</tr>
-	  </table>
-<br />
-
-<table class="trzy">
-	<tr class="trzy">
-	  <th class="trzy">Pierwsze Imię</th>
-	  <th class="trzy">Nazwisko</th>
-	  <th class="trzy">Zarobek na godz.</th>
-	</tr>
-	<tr class="trzy">
-	  <td class="trzy">Piotrus</td>
-	  <td class="trzy">Pan</td>
-	  <td class="trzy">$230</td>
-	</tr>
-	<tr class="trzy">
-	  <td class="trzy">Ombur</td>
-	  <td class="trzy">Pytka</td>
-	  <td class="trzy">$150</td>
-	</tr>
-	<tr class="trzy">
-	  <td class="trzy">Filip</td>
-	  <td class="trzy">Wilga</td>
-	  <td class="trzy">$123123</td>
-	</tr>
-	<tr class="trzy">
-	  <td class="trzy">Mikołaj</td>
-	  <td class="trzy">Stańczyk</td>
-	  <td class="trzy">$30300</td>
-	</tr>
-  </table>
-		
-  <br />
-
-  <table class="cztery">
-	  <tr class="cztery">
-		<th class="cztery">Pierwsze Imię</th>
-		<th class="cztery">Nazwisko</th>
-		<th class="cztery">Zarobek na godz.</th>
-	  </tr>
-	  <tr class="cztery">
-		<td class="cztery">Piotrus</td>
-		<td class="cztery">Pan</td>
-		<td class="cztery">$230</td>
-	  </tr>
-	  <tr class="cztery">
-		<td class="cztery">Ombur</td>
-		<td class="cztery">Pytka</td>
-		<td class="cztery">$150</td>
-	  </tr>
-	  <tr class="cztery">
-		<td class="cztery">Filip</td>
-		<td class="cztery">Wilga</td>
-		<td class="cztery">$123123</td>
-	  </tr>
-	  <tr class="cztery">
-		<td class="cztery">Mikołaj</td>
-		<td class="cztery">Stańczyk</td>
-		<td class="cztery">$30300</td>
-	  </tr>
 	</table>
-
-	<br />
+	<hr />	
+	<p>4 i 5. Utwórz tabelę z klasa "trzy" (kopiujac tabelę "dwa")
+	Skopiuj wszystkie deklaracje z tabeli z klasa "dwa" i zamień je na "trzy".
+	Dodatkowo w wierszu dodaj KOLOR fioletowy WIERSZY PARZYSTYCH
+	oraz kolor szary WIERSZY NIEPARZYSTYCH po najechaniu mysza na wiersze.
+	Po najechaniu mysza zobaczysz efekt.</p>
+	<table class="trzy">
+		<tr class="trzy">
+			<th class="trzy">Pierwsze Imię</th>
+			<th class="trzy">Nazwisko</th>
+			<th class="trzy">Zarobek na godz.</th>
+		</tr>
+		<tr class="trzy">
+			<td class="trzy">Peter</td>
+			<td class="trzy">Griffin</td>
+			<td class="trzy">$100</td>
+		</tr>
+		<tr class="trzy">
+			<td class="trzy">Lois</td>
+			<td class="trzy">Griffin</td>
+			<td class="trzy">$150</td>
+		</tr class="trzy">
+		<tr class="trzy">
+			<td class="trzy">Joe</td>
+			<td class="trzy">Swanson</td>
+			<td class="trzy">$300</td>
+		</tr>
+		<tr class="trzy">
+			<td class="trzy">Cleveland</td>
+			<td class="trzy">Brown</td>
+			<td class="trzy">$250</td>
+		</tr>
+	</table>
+	
+	<hr />
+	
+	<table class="cztery">
+		<tr class="cztery">
+			<th class="cztery">Pierwsze Imię</th>
+			<th class="cztery">Nazwisko</th>
+			<th class="cztery">Zarobek na godz.</th>
+		</tr>
+		<tr class="cztery">
+			<td class="cztery">Peter</td>
+			<td class="cztery">Griffin</td>
+			<td class="cztery">$100</td>
+		</tr>
+		<tr class="cztery">
+			<td class="cztery">Lois</td>
+			<td class="cztery">Griffin</td>
+			<td class="cztery">$150</td>
+		</tr class="cztery">
+		<tr class="cztery">
+			<td class="cztery">Joe</td>
+			<td class="cztery">Swanson</td>
+			<td class="cztery">$300</td>
+		</tr>
+		<tr class="cztery">
+			<td class="cztery">Cleveland</td>
+			<td class="cztery">Brown</td>
+			<td class="cztery">$250</td>
+		</tr>
+	</table>
+	<hr />
+	<p>6. Utwórz tabelę z klasa "cztery", składajaca się z 2 wierszy i 2 kolumn. Szerokosć 50 %
+	Tylko główna czesć tabeli ma obramowanie: table { 1px solid czarne }.
+	th w tabeli ma klasę - deklaracja czcionki w kolorze czerwonym oraz tła żółtego.
+	<tt color="gray">W formie przypomnienia - aby th i td mialo obramowanie należałoby je zadeklarować.</tt></p>
+	
 	<table class="cztery1">
 		<tr class="cztery1">
 			<th class="cztery1">1</th>
@@ -199,7 +217,12 @@
 			<td class="cztery1">b</td>
 		</tr>
 	</table>
-	<br />
+	<hr />
+	<p>7. Utwórz tabelę z klasa "piec", składajaca się z 2 wierszy i 2 kolumn. Szerokosć 50 %
+		Tabela oraz komórki tabeli maja obramowanie: table * { 1px solid czarne }.
+		W celu zmiany wiersza nagłówkowego - wykorzystaj th z klasą z zadania wyższego.
+		th i td dziedziczą obramowanie od tabeli</p>
+
 	<table class="piec">
 		<tr class="piec">
 			<th class="piec">I</th>
@@ -210,29 +233,211 @@
 			<td class="piec">ii</td>
 		</tr>
 	</table>
+	<hr />
+	<p>8. Utwórz tabelę z klasa "noc".
+		W tabeli występują odstępy pomiędzy komórki - 10 px
+		oraz zadeklarowane są dwa rożne style ramek w komórkach (inset i outset).
+		Kolory dowolne. Wiersz nagłówkowy ma mieć tło.
+		</p>
 
-	<br />
+	<table class="noc">
+		<tr class="noc">
+			<th class="noc">Pracownik</th>
+			<th class="noc">Data<br /> rozpoczecia</th>
+			<th class="noc">Data<br /> zakonczenia</th>
+			<th class="noc">Staż</th>
+		</tr class="noc">
+		<trclass="noc">
+			<td class="noc">Bartosz R.</td>
+			<td class="noc">12/04/2000</td>
+			<td class="noc">02/02/2011</td>
+			<td class="noc">11 lat</td>
+		</tr>
+		<tr class="noc">
+			<td class="noc">Tomasz D</td>
+			<td class="noc">07/06/2009</td>
+			<td class="noc">do teraz</td>
+		</tr>
+	</table>
+	<hr />
+	<p>9. Utwórz tabelę z klasa "pink".
+	Wprowadz collapse w deklaracji krawędzi komórek.
+	Należy wstawić pusta wyswietlajaca się komórkę.</p>
+	<table class="pink">
+		<tr>
+			<th class="pink"> Pracownik </th>
+			<th class="pink"> Data rozpoczecia </th>
+			<th class="pink"> Data zakonczenia </th>
+		</tr>
+		<tr>
+			<td class="pink"> Bartosz R. </td>
+			<td class="pink"> 12/04/2000 </td>
+			<td class="pink"> 02/02/2011 </td>
+		</tr>
+		<tr>
+			<td class="pink"> Tomasz D </td>
+			<td class="pink"> 07/06/2009 </td>
+			<td class="pink"> do teraz </td>
+		</tr>
+		<tr>
+			<td class="pink"> Stefan H </td>
+			<td class="pink"> 11/09/2012 </td>
+		</tr>
+	</table> 
+	<hr />
+	<p>10. Zastosowano caption - odswież w Mozilla Firefox. Wykonaj podobna tabelę.</p>
 
-<table class="noc">
-	<tr class="noc">
-		<th class="noc">Pracownik</th>
-		<th class="noc">Data<br /> rozpoczecia</th>
-		<th class="noc">Data<br /> zakonczenia</th>
-		<th class="noc">Staż</th>
-	</tr class="noc">
-	<trclass="noc">
-		<td class="noc">Mikołaj K.</td>
-		<td class="noc">19.20.1920</td>
-		<td class="noc">19.20.1920</td>
-		<td class="noc">11 lat</td>
-	</tr>
-	<tr class="noc">
-		<td class="noc">Filip S.</td>
-		<td class="noc">31.12.2011</td>
-		<td class="noc">do teraz</td>
-	</tr>
-</table>
+	<table class="caption">
+		<caption class="caption">Schemat<br /> kontroli<br /> pracowników<br /></caption>
+		<tr class="caption">
+			<th class="caption">Pracownik</th>
+			<th class="caption">Data rozpoczecia</th>
+			<th class="caption">Data zakonczenia</th>
+		</tr>
+		<tr class="caption">
+			<td class="caption">Bartosz R.</td>
+			<td class="caption">12/04/2000</td>
+			<td class="caption">02/02/2011</td>
+		</tr>
+		<tr class="caption">
+			<td class="caption">Tomasz D</td>
+			<td class="caption">07/06/2009</td>
+			<td class="caption">do teraz</td>
+		</tr>
+	</table>
+	<hr />
+	<p>11. Zastosowano caption - odswież w Mozilla Firefox. Wykonaj podobna tabelę.</p>
 
+	<table class="caption">
+		<caption class="caption">Kto się kiedy urodził - czas na imprezkę</caption>
+		<tr class="caption">
+			<th class="caption">Imie</th>
+			<th class="caption">Dzień i miesiąc urodzenia</th>
+			<th class="caption">Wiek</th>
+		</tr>
+		<tr>
+			<td class="caption">Kubus</td>
+			<td class="caption">20 I</td>
+			<td class="caption">8</td>
+		</tr>
+		<tr>
+			<td class="caption">Baisa</td>
+			<td class="caption">30 IX</td>
+			<td class="caption">*</td>
+		</tr>
+		<tr>
+			<td class="caption">Michal</td>
+			<td class="caption">24 IV</td>
+			<td class="caption">28</td>
+		</tr>
+		<tr>
+			<td class="caption">Joasia</td>
+			<td class="caption">13 IV</td>
+			<td class="caption">*</td>
+		</tr>
+		<tr>
+			<td class="caption">Krzysiu</td>
+			<td class="caption">25 VIII</td>
+			<td class="caption">62</td>
+		</tr>
+	</table>
+	<hr />
+	<p>12. Postaraj się wykonać podobna tabelę - która zagnieżdża tabelę w tabeli.</p>
+	<table class="k121">
+		<tr>
+			<th class="k121">Pracownik</th>
+			<th class="k121">Data rozpoczecia</th>
+			<th class="k121">Data zakonczenia</th>
+		</tr>
+		<tr>
+			<td class="k121">Rudolf</td>
+			<td class="k121">12/04/2000</td>
+			<td class="k121">02/02/2011</td>
+		</tr>
+		<tr>
+			<td class="k121">Eryk</td>
+			<td colspan="2" rowspan="2">
+				<table class="k122">
+					<tr>
+						<th class="k122">Pracownik</th>
+						<th class="k122">Data rozpoczecia</th>
+					</tr>
+					<tr>
+						<td class="k122">Adam R.</td>
+						<td class="k122">12/04/2000</td>
+					</tr>
+					<tr>
+						<td class="k122">Tomasz D.</td>
+						<td class="k122">07/06/2009</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td class="k121">Bartosz</td>
+		</tr>
+		<tr>
+			<th class="k121">Pracownik</th>
+			<th class="k121">Data rozpoczecia</th>
+			<th class="k121">Data zakonczenia</th>
+		</tr>
+	</table>
+	<p>12.
+	Skopiuj tabelkę (znaczniki oraz jej style) z klasą "dwa". Zamień nazwę klasy na "dwa1".
+	Zmodyfikuj ją jak we wzorcu (potrzebujemy 6 kolumn zamiast 3).
+	TWORZYMY TABLĘ RESONSYWNĄ na urządzeniach mobilnych.
+	W stylach, w znaczniku table.dwa1 mają się znaleźć następujące właściwości i wartości:
+		width: 100%;
+		table-layout:auto;
+		display:block;
+		border-collapse: collapse;
+
+	Pozostałe elementy pozostaja bez zmian:
+	Tabela ma złączone krawędzie w tabeli. Szerokosć 100 %.
+	W komórkach th i td jest ustawiony odstęp na 8 px oraz border-top w kolorze aqua z 1 px.
+	Dodatkowo ZASTOSOWAŁAM PSEUDOKLASĘ :hover , która ma tło w kolorze aqua. Po najechaniu mysza zobaczysz efekt.</p>
+	<table>
+		<tr class="dwa1">
+			<th class="dwa1">Pierwsze Imię</th>
+			<th class="dwa1">Nazwisko</th>
+			<th class="dwa1">Zarobek na godz.</th>
+			<th class="dwa1">Pierwsze Imię</th>
+			<th class="dwa1">Nazwisko</th>
+			<th class="dwa1">Zarobek na godz.</th>
+		</tr>
+		<tr class="dwa1">
+			<td class="dwa1">Peter</td>
+			<td class="dwa1">Griffin</td>
+			<td class="dwa1">$100</td>
+			<td class="dwa1">Peter</td>
+			<td class="dwa1">Griffin</td>
+			<td class="dwa1">$100</td>
+		</tr>
+		<tr class="dwa1">
+			<td class="dwa1">Lois</td>
+			<td class="dwa1">Griffin</td>
+			<td class="dwa1">$150</td>
+			<td class="dwa1">Lois</td>
+			<td class="dwa1">Griffin</td>
+			<td class="dwa1">$150</td>
+		</tr class="dwa1">
+		<tr class="dwa1">
+			<td class="dwa1">Joe</td>
+			<td class="dwa1">Swanson</td>
+			<td class="dwa1">$300</td>
+			<td class="dwa1">Joe</td>
+			<td class="dwa1">Swanson</td>
+			<td class="dwa1">$300</td>
+		</tr>
+		<tr class="dwa1">
+			<td class="dwa1">Cleveland</td>
+			<td class="dwa1">Brown</td>
+			<td class="dwa1">$250</td>
+			<td class="dwa1">Cleveland</td>
+			<td class="dwa1">Brown</td>
+			<td class="dwa1">$250</td>
+		</tr>
+	</table>
 	
 	
 </div>

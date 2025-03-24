@@ -1,0 +1,4 @@
+div#id21{background: linear-gradient(to bottom right,#888,#aaa)}
+p.id0[align]{color:red;font-size:16pt;}
+p.id1[align="right"]{color:white;font-size:16pt;}
+h3.id2[title~="opis"]{color:red;background-color:white;border:3px dotted red;font-size:30pt;}
